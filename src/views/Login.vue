@@ -76,8 +76,8 @@ export default {
     },
     googleAuth() {
       let gapi = window.gapi;
-      let clientId ="1053316364678-dgo3eoiidhokv7uc7cf4on4fm5tscoss.apps.googleusercontent.com";
-      let apiKey ="AIzaSyD7AFifl037yp_4hg0zvgbhZzr_TwFSgEE";
+      let clientId ="<CLIENT_ID>";
+      let apiKey ="<API_KEY>";
       let discoveryDocs =["https://www.googleapis.com/discovery/v1/apis/oauth2/v2/rest"];
       let scope ="https://www.googleapis.com/auth/userinfo.profile";
 
